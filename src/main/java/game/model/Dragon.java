@@ -5,6 +5,7 @@ package game.model;
  * necesite para llevar a cabo esta parte del hito 3. Inclúyalas en el paquete "game.model"
  */
 public class Dragon {
+
     private String name;
     private int life_points;
 

@@ -1,16 +1,27 @@
 package game.model;
 
 public class Jugador {
-    private String nombre_personaje;
-    private int id_jugador;
-    public Jugador(String nombre_personaje, int id_jugador){
-        this.nombre_personaje = nombre_personaje;
-        this.id_jugador = id_jugador;
+    private String nombreJugador;
+    private int idJugador;
+
+    public Jugador(String nombreJugador, int idJugador) {
+        this.nombreJugador = nombreJugador;
+        this.idJugador = idJugador;
     }
-    public String getNombre_personaje(){
-        return this.nombre_personaje;
+
+    public String getNombreJugador() {
+        return nombreJugador;
     }
-    public int getId_jugador(){
-        return this.id_jugador;
+
+    public void setNombreJugador(String nombreJugador) {
+        this.nombreJugador = nombreJugador;
+    }
+
+    public int getIdJugador() {
+        return idJugador;
+    }
+
+    public void setIdJugador(int idJugador) {
+        this.idJugador = idJugador;
     }
 }
