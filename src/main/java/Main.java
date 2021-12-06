@@ -17,7 +17,7 @@ public class Main {
 
     private static final String DB_USER = "root";
 
-    private static final String DB_PASS = "XXXXXXX";
+    private static final String DB_PASS = "";
 
     private static Connection conn;
 
